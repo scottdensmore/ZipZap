@@ -1048,6 +1048,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 9.2.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
@@ -1079,6 +1080,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 9.2.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
@@ -1135,12 +1137,13 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
 				INFOPLIST_FILE = ZipZap/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 9.2.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
@@ -1164,12 +1167,13 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
 				INFOPLIST_FILE = ZipZap/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 9.2.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
@@ -1230,8 +1234,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				ONLY_ACTIVE_ARCH = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
@@ -1285,8 +1289,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALIDATE_PRODUCT = YES;
@@ -1407,13 +1411,14 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 9.2.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.ZipZap;
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1437,13 +1442,14 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 9.2.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fno-exceptions",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.ZipZap;
 				PRODUCT_NAME = ZipZap;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
